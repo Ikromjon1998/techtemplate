@@ -4,3 +4,8 @@ from django.views.generic import TemplateView
 class MainIndexView(TemplateView):
     template_name = 'main/index.html'
 
+class MainAboutView(TemplateView):
+    template_name = 'main/about.html'
+
+class MainContactView(TemplateView):
+    template_name = 'main/contact.html'
