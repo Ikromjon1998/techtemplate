@@ -74,6 +74,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'main.templatetags.helpers.settings_own',
+                'main.templatetags.helpers.load_categories',
             ],
         },
     },
@@ -122,7 +123,6 @@ USE_TZ = False
 
 LANGUAGES = (
     ('en', '🇺🇸English'),
-    ('ru', '🇷🇺Russian'),
     ('uz', '🇺🇿Uzbek'),
 )
 
